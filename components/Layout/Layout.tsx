@@ -1,4 +1,4 @@
-import Navbar from "../Navbar/Navbar";
+import Navbar from "@components/Navbar/Navbar";
 import React from "react";
 
 const Layout: React.FC = ({ children }) => {
@@ -6,7 +6,7 @@ const Layout: React.FC = ({ children }) => {
     <div>
       <Navbar />
       {children}
-      {/* <Footer /> */}
+      <footer>This is the footer</footer>
     </div>
   );
 };
